@@ -41,6 +41,19 @@ header #profile-picture {
   min-height: 600px;
 }
 
+#profile-picture-container {
+  position: relative;
+}
+
+.cat-name-container {
+  font-size: 3.1rem;
+  color: white;
+  position: absolute;
+  left: 5%;
+  text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.8), 0 0 10px rgba(0, 0, 0, 0.5);
+  top: 90%;
+}
+
 header .icon {
   width: 2rem;
 }
@@ -81,7 +94,7 @@ header .icon {
 .about-me-section p {
   margin-top: 0;
 }
-.about-me-section footer {
+#about-me-footer {
   background-color: white;
   display: flex;
   gap: 1.5rem;
@@ -130,7 +143,7 @@ main .icon {
 
 /* footer section */
 
-footer {
+#page-footer {
   background-color: #a8b5a2;
 }
 .footer-wrapper {
@@ -168,6 +181,10 @@ footer {
   max-width: 100%;
 }
 
+.contact-me-section {
+  max-width: 550px;
+}
+
 #contact-picture {
   width: 850px;
   min-height: 550px;
@@ -179,4 +196,23 @@ footer {
 
 .contact-icon {
   width: 1.5rem;
+}
+
+/* Phone */
+@media (max-width: 767px) {
+  /* .header-wrapper {
+    flex-wrap: wrap;
+  } */
+  .header-wrapper {
+    flex-direction: column;
+  }
+  #page-footer {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+  }
+  .footer-wrapper {
+    flex-wrap: wrap;
+    padding-bottom: 0;
+  }
 }

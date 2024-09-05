@@ -3,7 +3,7 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Document</title>
+    <title>Homepage</title>
     <link rel="stylesheet" href="styles.css" />
   </head>
 
@@ -11,11 +11,14 @@
     <header>
       <div class="header-background"></div>
       <div class="header-wrapper">
-        <img
-          src="assets/cat-portrait.jpg"
-          alt="profile portrait"
-          id="profile-picture"
-        />
+        <div id="profile-picture-container">
+          <img
+            src="assets/cat-portrait.jpg"
+            alt="profile portrait"
+            id="profile-picture"
+          />
+          <div class="cat-name-container">Whiskers McFluffington</div>
+        </div>
         <section class="about-me-section">
           <h1>About Me</h1>
           <p>
@@ -30,7 +33,7 @@
             unparalleled authority. Let’s just say, if you need a professional
             expert in making every day a little more interesting, I’m your cat!
           </p>
-          <footer>
+          <footer id="about-me-footer">
             <a href="https://github.com/late-bloomer82"
               ><img
                 src="assets/github-original.svg"
@@ -232,15 +235,14 @@
         </div>
       </section>
     </main>
-    <footer>
+    <footer id="page-footer">
       <div class="footer-wrapper">
         <section class="contact-me-section">
           <div class="contact-wrapper">
             <h1>Contact Me</h1>
             <p>
-              Nullam nec hendrerit metus, eu laoreet felis. Nam eu ullamcorper
-              massa. <br />Morbi pellentesque convallis orci. Suspendisse et
-              laoreet nisl.
+              Got treats or belly rubs? I’m all ears! Drop me a meow and let’s
+              purr together. Don’t forget the catnip!
             </p>
             <p>
               1234 Random Street Road <br />
