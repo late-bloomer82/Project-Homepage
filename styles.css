@@ -148,7 +148,7 @@ main .icon {
   background-color: #a8b5a2;
   padding: 5rem;
   justify-content: center;
-  gap: 2rem;
+  gap: 4rem;
 }
 
 .footer-wrapper nav {
@@ -225,6 +225,7 @@ main .icon {
     padding: 0;
     display: flex;
     flex-direction: column;
+    gap: 2rem;
   }
   #contact-picture {
     width: 100%;
@@ -298,9 +299,7 @@ main .icon {
     max-width: 350px;
     object-fit: cover;
   }
-  #page-footer {
-    gap: 3rem;
-  }
+
   main {
     padding: 2.5rem;
   }
