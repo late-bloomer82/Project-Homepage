@@ -148,6 +148,7 @@ main .icon {
   background-color: #a8b5a2;
   padding: 5rem;
   justify-content: center;
+  gap: 2rem;
 }
 
 .footer-wrapper nav {
@@ -195,7 +196,7 @@ main .icon {
   width: 1.5rem;
 }
 
-/* Phone */
+/* Encompassing Phone sizes*/
 @media (max-width: 767px) {
   .header-background {
     bottom: 63%;
@@ -266,23 +267,20 @@ main .icon {
   }
 }
 
-/* Tablets*/
+/* Encompassing Tablets sizes*/
 @media (min-width: 768px) and (max-width: 1024px) {
   .header-background {
     bottom: 40%;
-  }
-  .about-me-section p {
-    margin: auto;
   }
 
   .about-me-section {
     margin-left: 60px;
     display: block;
+    margin-top: 5.5rem;
   }
 
   .about-me-section h1 {
     text-align: center;
-    padding-left: 120px;
     margin-bottom: 20px;
   }
 
@@ -293,6 +291,7 @@ main .icon {
   #profile-picture-container {
     max-width: 350px;
     float: left;
+    margin-right: 20px;
   }
 
   #contact-picture {
